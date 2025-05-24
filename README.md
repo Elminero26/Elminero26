@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋, soy Richard</h1>
 <h3 align="center">Desarrollador Full Stack en formación | Fundador de CryptoJazzHolders 🚀</h3>
 
-- 💻 Actualmente estoy trabajando en **Academy CryptoJazz** y una tienda online de productos electrónicos llamada [Gaming Thigns](https://gamingthigns.store/)
+- 💻 Actualmente estoy trabajando en **CryptoJazzHoldez** y una tienda online de productos electrónicos llamada [Gaming Thigns](https://gamingthigns.store/)
 
 - 🌱 Estoy aprendiendo **React, MongoDB, Next.js,SQL y ciberseguridad **
 
