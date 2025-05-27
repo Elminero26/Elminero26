@@ -19,7 +19,7 @@
 - 👯 Buscando colaborar en proyectos de **blockchain, apps web y ciberseguridad**
 - 💬 Pregúntame sobre **React, desarrollo de tiendas online y criptomonedas**
 - 📫 Contacto: [mateooficial1996@gmail.com](mailto:mateooficial1996@gmail.com) ·  
-  [LinkedIn](https://www.linkedin.com/in/richard-mateo-obando-ladino-5b3214250/)
+  [LinkedIn](https://www.linkedin.com/in/richard-mateo-obando-ladino-5b3214250/?originalSubdomain=es)
 
 ---
 
