@@ -5,7 +5,7 @@
 
 <!-- Foto de perfil -->
 <p align="center">
-  <img src="profile.png" alt="Foto de Richard" width="100" height="160" style="border-radius:50%; border:3px solid #ffffff;">
+  <img src="profile.png" alt="Foto de Richard" width="200" height="200" style="border-radius:50%; border:3px solid #ffffff;">
 </p>
 
 <h1 align="center">Hola 👋, soy Richard</h1>
