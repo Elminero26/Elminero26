@@ -1,0 +1,39 @@
+name: Update GitHub Stats
+on:
+  schedule:
+    - cron: "0 0 * * *" # Actualizar diariamente a medianoche
+  workflow_dispatch: # Permitir ejecución manual
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update GitHub activity stats
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: "📊 Update GitHub activity stats"
+          MAX_LINES: 5
+          COMMITTER_EMAIL: ${{ github.actor }}@users.noreply.github.com
+          COMMITTER_NAME: ${{ github.actor }}
+
+      - name: Update GitHub profile stats
+        uses: anmol098/waka-readme-stats@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          SHOW_TITLE: "false"
+          SHOW_LINE_OF_CODE: "true"
+          SHOW_PROFILE_VIEWS: "true"
+          SHOW_LANGUAGE: "true"
+          SHOW_OS: "false"
+          SHOW_EDITORS: "false"
+          SHOW_LOC_CHART: "true"
+          SHOW_LANGUAGE_PERCENT: "true"
+          SHOW_DAYS_OF_WEEK: "false"
+          SHOW_OVERVIEW: "true"
+          SHOW_SHORT_INFO: "true"
